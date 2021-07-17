@@ -1,100 +1,56 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 /* written by riliwan balogun https://www.facebook.com/riliwan.rabo*/
 
-.list-type2{
-  width:400px;
-  
-  margin:0 390px;
+.lis-row {
+  display: flex;
+  justify-content: center;
+}
+.lis-col {
+  margin: 10px 35px;
+}
+
+@media (max-width: 991px) {
+  .lis-row {
+    flex-direction: column;
   }
-  
-  .list-type2 ol{
-  
-    width:900px;
-  counter-reset: li;
-  list-style: none;
-  *list-style: decimal;
-  font-size: 15px;
-  font-family: 'Raleway', sans-serif;
-  padding: 0;
-  margin-bottom: 4em;
-  margin-left: -50px;
- 
-  }
-  
-  .list-type2 ol li{
-  margin: 0 0 0 2em;
-  }
-  
-  .list-type2 a{
+}
+.list-type2 a {
   position: relative;
-  display: block;
+  display: flex;
   padding: 2em 2em 2em 2em;
-  *padding: .4em;
-  margin: .5em 0;
+  margin: 0.5em 0;
   width: auto;
-  border-radius:20px 0 20px 0;
+  border-radius: 20px 0 20px 0;
   background: #f0bb1dce;
   color: #444;
   /* border:.3em solid #000; */
   text-decoration: none;
-  transition: all .2s ease-in-out;
-  }
-  .lis-row{
-    display:flex;
-  }
-  .lis-col{
-    width:200px;
-  }
-  .list-type2 a:hover{
+  transition: all 0.2s ease-in-out;
+}
+.list-type2 a:hover {
   background: #d6d4d4;
-  text-decoration:none;
+  text-decoration: none;
   transform: scale(1.1);
-  }
-  
-  .list-type2 a:before{
+}
+
+.list-type2 a:before {
   content: counter(li);
   counter-increment: li;
   position: absolute;
   left: -1.3em;
   top: 50%;
   margin-top: -1.3em;
-  background: linear-gradient(to right, #824baf , #ccc);
+  background: linear-gradient(to right, #824baf, #ccc);
   height: 3em;
   width: 3em;
   line-height: 2em;
   /* border: .3em solid #000; */
-  border-radius:20px 0 20px 0;
+  border-radius: 20px 0 20px 0;
   text-align: center;
   font-weight: bold;
-  color:#000;
-  }
+  color: #000;
+}
 
-  @media only screen and (max-width: 600px){
-    .list-type2 {
-      margin: 0;
-      
-    }
-    .list-type2 a{
-      width: 100%;
-    }
-    .list-type2 ol li{
-      margin:0 0 0 69px;
-      width:310px;
-    }
-    .lis-row{
-      display:flex;
-      flex-direction:column;
-    }
-    .lis-col{
-      
-    }
-  }
-  @media only screen and (max-width: 389px){
-    .list-type2 ol li{
-      margin:0 0 0 69px;
-      width:289px;
-    }
-  }
 .board {
   width: 100%;
   margin: 90px auto;
