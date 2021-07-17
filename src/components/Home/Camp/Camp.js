@@ -16,6 +16,9 @@ $(document).ready(function() {
     "https://attisquare.s3.amazonaws.com/atti-images/camp-6.webp",
     "https://attisquare.s3.amazonaws.com/atti-images/camp-7.webp",
     "https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp",
+    "https://drive.google.com/uc?export=view&id=1RLwYtgITpsvRPAYCrL6UoI_bWsVQ0BmP",
+    "https://drive.google.com/uc?export=view&id=1aH8bSlnBi4DwuwRLwtK5Qh_XBxBk6dH-",
+   " https://drive.google.com/uc?export=view&id=1N824-tXOP7Y2J1a780AtcTMrB9dpGCG-"
     
   ];
 
