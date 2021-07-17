@@ -257,30 +257,53 @@ const FranchiseUpdated = () => {
                   Franchise Benefits
                 </h3>
                 <div class="list-type2">
-<ol>
-  <Row className="lis-row">
-    <Col sm={12} lg={6} className="lis-col" >
-<li><a href="#">Powerful Brand Association</a></li>
-<li><a href="#">A to Z Product Supply</a></li>
-<li><a href="#">Manpower Guarantee</a></li>
-<li><a href="#">Advertising and Marketing Programs</a></li>
-<li><a href="#">Not dependent on Skilled labor</a></li>
-<li><a href="#">Centralized Supply – Uniform Taste and Quality</a></li>
-</Col>
+                  <ol>
+                    <div className="lis-row">
+                      <div className="lis-col">
+                        <li>
+                          <a href="#">Powerful Brand Association</a>
+                        </li>
+                        <li>
+                          <a href="#">A to Z Product Supply</a>
+                        </li>
+                        <li>
+                          <a href="#">Manpower Guarantee</a>
+                        </li>
+                        <li>
+                          <a href="#">Advertising and Marketing Programs</a>
+                        </li>
+                        <li>
+                          <a href="#">Not dependent on Skilled labor</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Centralized Supply – Uniform Taste and Quality
+                          </a>
+                        </li>
+                      </div>
 
-<Col sm={12} lg={6} className="lis-col">
-<li><a href="#">New Products & Development</a></li>
-<li><a href="#">Site Selection & Development Assistance</a></li>
-<li><a href="#">Operational & Management Support</a></li>
-<li><a href="#">Low investment; High Margins</a></li>
-<li><a href="#">Accounts & Control System</a></li>
-
-</Col>
-</Row>
-</ol>
-</div>
-
-
+                      <div className="lis-col">
+                        <li>
+                          <a href="#">New Products & Development</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Site Selection & Development Assistance
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Operational & Management Support</a>
+                        </li>
+                        <li>
+                          <a href="#">Low investment; High Margins</a>
+                        </li>
+                        <li>
+                          <a href="#">Accounts & Control System</a>
+                        </li>
+                      </div>
+                    </div>
+                  </ol>
+                </div>
               </div>
               <div
                 className={
